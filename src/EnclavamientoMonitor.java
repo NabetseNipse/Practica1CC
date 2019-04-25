@@ -2,7 +2,7 @@ import es.upm.babel.cclib.Monitor;
 
 public class EnclavamientoMonitor implements Enclavamiento {
 
-  Monitor mutex = new Monitor();
+  Monitor mutex = new Monitor() ;
   
   @Override
   public void avisarPresencia(boolean presencia) {
